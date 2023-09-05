@@ -1,0 +1,21 @@
+header{
+    Width:100%;
+    height:90px;
+    background-color: aliceblue;
+    border:1px solid lightblue
+}
+section{
+    display:flex;
+}
+main{
+    width:100px;
+    height:800px;
+    background-color:aliceblue
+    border:1px solid lightcyan
+}
+.content{
+    width:100%;
+    height:300px;
+    background-color: white
+    border:1px solid beige;
+}

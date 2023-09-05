@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color:red;
+}
+
+.best{
+    display:flex;
+    justify-content:space-between;
+    list-style:none;
+   color:white;
+   
+}
+
+ul li a{
+    padding:15px;
+    color:white;
+}
+
+    .container1{ 
+        background-color: blueviolet;
+        color:white;
+        display: inline
+    }
+
+ .mood{
+    background-color:blue;
+    color:red;
+    display:inline;
+ }
+ .man{
+    background-color: blue;
+    color:black;
+ }
+
+ 

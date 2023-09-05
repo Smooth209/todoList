@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet"href="./Depth.css"/>
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Todos</h2>
+        <form id="form">
+            <div class="input-button">
+                <input
+                type="text"
+                autofocus
+                id="todos-input"
+                placeholder="Enter tasks here"
+                />
+
+            </div>
+            <button class ="add-todo"type="submit"id="btn">
+                <i class ="fas fa plus increase"></i>
+            </button>
+        </form>
+        <div id="err"></div>
+        <div class="todos-container" id="todos-container"></div>
+    </div>
+    <script src="./Depth.js"></script>
+    
+</body>
+</html>

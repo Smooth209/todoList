@@ -1,0 +1,118 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    padding-top: 30px;
+}
+p{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.content p::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    top: 11px;
+    left: 5px;
+    background-color: #f0f8ff;
+}
+.content p.checked{
+    text-decoration: line-through;
+    color: gray;
+}
+.content p.checked::before{
+    background-image: url("./mark.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.todos-container{
+    width: 100%;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.option{
+    display: flex;
+    gap: 15px;
+}
+ .root{
+    width: 100px;
+ }
+ .delete{
+    color: rgb(139,0,0);
+ }
+ .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #fff;
+    border-radius: 20px;
+    padding-inline: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    box-shadow: 2px 2px 2px darkgray;
+    position: relative;
+ }
+ i {
+    cursor:pointer ;
+ }
+   .container{
+    background-color: whitesmoke;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    box-shadow: 3px 3px 8px gray;
+   }
+     .input-button{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+     }
+       .add-todo{
+        padding: 10px;
+        border-radius: 7px;
+        background: radial-gradient(aliceblue,lightblue,blue);
+        color: #000;
+        margin-left: 3px;
+         cursor: pointer;
+         padding: inline:10px;
+         transition:all 0.5s ease-in-out;
+       }
+         .add-todo:hover{
+            opacity: 0.7;
+         }
+         .input-button input{
+            flex: 1;
+            padding: 7px;
+            border-radius: 7px;
+            font-family: cursive;
+            font-size: 1.3rem;
+            font-weight: bold;
+            outline: none;
+            display: block;
+            padding-inline-start: 10px;
+         }
+          #form{
+            display: flex;
+          }
+          #err{
+            margin-top: 5px;
+            margin-bottom: 10px;
+            text-align: left;
+            color: darked;
+            font-family: cursive;
+            font-weight: 500;
+            font-size: 20px;
+          }
